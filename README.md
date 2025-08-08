@@ -54,7 +54,7 @@ ev-charger-analysis
 
 ## Data Access
 
-All datasets used in this project are publicly available. Due to file size limitations, they are not stored in this repository. Please refer to [`Public Datasets/README.md`](Public Datasets/README.md) for source links and descriptions.
+All datasets used in this project are publicly available. Due to file size limitations, they are not stored in this repository. Please refer to [`Public Datasets/README.md`](Public%20Datasets/README.md) for source links and descriptions.
 
 For processed datasets used in the model, download from Google Drive:  
 [Download Processed Datasets](https://drive.google.com/drive/folders/1mI4rLcSTy1Z59HO58einBiIiEZLJCsWt?usp=sharing)
