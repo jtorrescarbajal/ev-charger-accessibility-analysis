@@ -2,10 +2,17 @@
 
 This project explores public EV charger availability across ZIP codes in California, Oregon, and Washington to identify areas with insufficient infrastructure. The goal is to support equitable EV charger deployment by using machine learning and public datasets to estimate charger need.
 
+**Results:**  
+- **Test R²:** 0.6722 | **RMSE:** 54.50 public chargers  
+- Identified **top 5 underserved ZIP codes** across CA/OR/WA based on socioeconomic and EV ownership features  
+- Output supports **state DOTs, utilities, and city planners** in prioritizing charging infrastructure investments
+
 ## Dashboard
 
 Interactive Tableau dashboard:  
 [View Dashboard](https://public.tableau.com/views/Capstone_Project_MSDA_Tableau/EstimatedEVChargerNeedMap?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<img src="images/dashboard_preview.png" alt="Dashboard Preview" width="300">
 
 ## Final Report
 
@@ -58,6 +65,11 @@ All datasets used in this project are publicly available. Due to file size limit
 
 For processed datasets used in the model, download from Google Drive:  
 [Download Processed Datasets](https://drive.google.com/drive/folders/1mI4rLcSTy1Z59HO58einBiIiEZLJCsWt?usp=sharing)
+
+## Limitations & Next Steps
+- Does not capture transient demand from tourism or pass-through traffic.
+- Uses static demographic data; would benefit from time-series EV adoption trends.
+- Future iterations: integrate GPS traffic data and clustering to locate high-priority commercial districts.
 
 ## License
 
