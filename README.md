@@ -20,6 +20,12 @@ The final paper outlines the background, data sources, methodology, modeling pro
 
 [`EV_Analysis_Paper.pdf`](https://jtorrescarbajal.github.io/ev-charger-accessibility-analysis/EV_Analysis_Paper.pdf)
 
+## PowerPoint Slides
+
+The presentation summarizes key findings from the project, including data sources, modeling approach, and actionable insights, designed for quick communication with stakeholders.  
+
+[`EV Analysis PowerPoint.pdf`](https://jtorrescarbajal.github.io/ev-charger-accessibility-analysis/EV_Analysis_Powerpoint.pdf)
+
 ## Data Sources
 
 All datasets used in this project are **publicly available**. See `data/README.md` for descriptions.
